@@ -16,4 +16,5 @@ alice = list(map(int,input().split()))
 bob = list(map(int, input().split()))
 
 result = compareTriplets(alice,bob)
-print(result)
+output = ' '.join(map(str,result))
+print(output)
