@@ -7,7 +7,9 @@ def timeConversion(s):
     else:
         if time[0]=="12":
             time[0]="00"
+    
     ntime=":".join(time)
+    print(ntime)
     
     return str(ntime[:-2])
 
