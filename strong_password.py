@@ -1,30 +1,26 @@
-numbers = "0123456789"
-lower_case = "qwertyuioplkjhgfdsazxcvbnm"
-upper_case = "zxcvbnmlkjhgfdsaqwertyuiop"
-special_character = "!@#$%^&*+-"
+def strongpassword(s):
+    upper = "QWERTYUIOPLKJHGFDSAZXCVBNM"
+    lower = "qwertyuioplkjhgfdsazxcvbnm"
+    number = 1234567890
+    spec = "!@#$%^&*()_+=-"
 
-def strong_password(n,password):
-    res = 0
+    count = 0
 
-    if not any(x in numbers for x in password):
-        res+=1
+    if any(i in upper for i in s) == False:
+        count += 1
 
-    if not any(x in lower_case for x in password):
-        res+=1
+    if any(i in lower for i in s) == False:
+        count += 1
 
-    if not any(x in upper_case for x in password):
-        res+=1
+    if any(i in number for i in s) == False:
+        count += 1
 
-    if not any(x in special_character for x in password):
-        res+1
+    if any(i in spec for i in s) == False:
+        count += 1
 
-    if len(password)<6:
-        return max(res, 6-len(password))
-    
-    return res
-        
+    return max(count, 6-s)
 
-input1 = input()
-password = input()
-result = strong_password(input1,password)
+
+input = input()
+result = strongpassword(input)
 print(result)
