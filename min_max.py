@@ -7,3 +7,11 @@ def miniMaxSum(arr):
 
 input1=list(map(int,input().split()))
 miniMaxSum(input1)
+
+"""
+sample input
+1 2 3 4 5
+
+sample output
+10 14
+"""
