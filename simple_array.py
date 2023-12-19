@@ -18,3 +18,12 @@ number = list(map(int, input().split()))
 result = simpleArraySum(number)
 
 print(result)
+
+''' 
+sample input
+6
+1 2 3 4 10 11
+
+sample output
+31
+'''
