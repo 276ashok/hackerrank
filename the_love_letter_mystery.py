@@ -9,3 +9,17 @@ for i in range(q):
     s=input()
     result=theLoveLetterMystery(s)
     print(result)
+
+"""
+4
+abc
+abcba
+abcd
+cba
+
+sample output
+2
+0
+4
+2
+"""
