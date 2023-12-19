@@ -11,3 +11,17 @@ def pangrams(s):
 input1 = input()
 result = pangrams(input1)
 print(result)
+
+"""
+sample input 1
+We promptly judged antique ivory buckles for the next prize
+
+sample output 1
+pangrams
+
+sample input 2
+We promptly judged antique ivory buckles for the prize
+
+sample output 2
+not pangrams
+"""
