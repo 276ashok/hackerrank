@@ -18,3 +18,14 @@ for q_itr in range(q):
     s = input()
     result = hackerrankInString(s)
     print(result)
+
+"""
+sample input
+2
+hereiamstackerrank
+hackerworld
+
+sample output
+YES
+NO
+"""
