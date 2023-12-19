@@ -19,3 +19,14 @@ for i in range(n):
     arr.append(arr_item)
     result = gemstone(arr)
     print(result)
+
+"""
+sample input
+3
+abcdde
+baccd
+eeabg
+
+sample output
+2
+"""
