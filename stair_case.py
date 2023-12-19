@@ -4,3 +4,16 @@ def staircase(n):
 
 input=int(input())
 staircase(input)
+
+"""
+sample input
+6
+
+sample output
+     #
+    ##
+   ###
+  ####
+ #####
+######
+"""
