@@ -19,3 +19,14 @@ for i in range(input1):
 # print(arr)
 result = diagonalDifference(arr)
 print(abs(result))
+
+"""
+sample input
+3
+11 2 4
+4 5 6
+10 8 -12
+
+sample output
+15
+"""
