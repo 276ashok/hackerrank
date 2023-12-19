@@ -18,3 +18,17 @@ for key in cnt:
 
 else:
     print("YES")
+
+"""
+sample input
+aaabbbb
+
+sample output
+YES
+
+sample input 1
+cdefghmnopqrstuvw
+
+sample output 1
+NO
+"""
