@@ -16,3 +16,11 @@ def timeConversion(s):
 s = input()
 result = timeConversion(s)
 print(result)
+
+"""
+sample input
+07:05:45PM
+
+sample output
+19:05:45
+"""
