@@ -12,3 +12,20 @@ for i in range(input1):
     input2 = input()
     result = alternatingcharacters(input2)
     print(result)
+
+"""
+sample input
+5
+AAAA
+BBBBB
+ABABABAB
+BABABA
+AAABBB
+
+sample input
+3
+4
+0
+0
+4
+"""
