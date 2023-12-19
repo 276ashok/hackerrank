@@ -14,3 +14,14 @@ for i in range(input1):
     s=input()
     result = funnystring(s)
     print(result)
+
+"""
+sample input
+2
+acxz
+bcxz
+
+sample output
+Funny
+Not Funny
+"""
