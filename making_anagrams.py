@@ -36,3 +36,12 @@ a=input()
 b=input()
 result = makinganagrams(a,b)
 print(result)
+
+"""
+sample input
+cde
+abc
+
+sample output
+4
+"""
