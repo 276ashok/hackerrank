@@ -28,3 +28,12 @@ n = int(input())
 password = input()
 result = strong_password(n, password)
 print(result)
+
+"""
+sample input
+11
+#HackerRank
+
+sample output
+1
+"""
