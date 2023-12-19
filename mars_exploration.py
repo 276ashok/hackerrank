@@ -16,3 +16,11 @@ def marsExploration(s):
 s = input()
 result = marsExploration(s)
 print(result) 
+
+"""
+sample input
+SOSSPSSQSSOR
+
+sample output
+3
+"""
