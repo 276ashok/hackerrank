@@ -9,3 +9,12 @@ n = int(input())
 b = input()
 result = beautifulBinaryString(b)
 print(result)
+
+"""
+sample input
+5
+01100
+
+sample output
+0
+"""
