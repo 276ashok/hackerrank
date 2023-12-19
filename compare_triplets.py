@@ -18,3 +18,12 @@ bob = list(map(int, input().split()))
 result = compareTriplets(alice,bob)
 output = ' '.join(map(str,result))
 print(output)
+
+"""
+sample input
+17 28 30
+99 16 8
+
+sample output
+2 1
+"""
