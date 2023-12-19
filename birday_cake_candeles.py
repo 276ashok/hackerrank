@@ -10,3 +10,12 @@ input1=int(input())
 input2 = list(map(int, input().split()))
 result = bithdayCakeCandles(input2)
 print(result)
+
+"""
+sample input
+4
+3 2 1 3
+
+sample output
+2
+"""
