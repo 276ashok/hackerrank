@@ -8,3 +8,11 @@ def camelcase(s):
 input = input()
 result = camelcase(input)
 print(result)
+
+"""
+sample input
+saveChangesInTheEditor
+
+sample output
+5
+"""
